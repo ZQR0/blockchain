@@ -16,8 +16,7 @@ public class Block implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
-    @Autowired
-    private KeyUtils keyUtils;
+    private final KeyUtils keyUtils = new KeyUtils();
 
     private int index;
     private String creator;
