@@ -15,7 +15,7 @@ import java.security.NoSuchAlgorithmException;
 @Slf4j
 public class KeyUtils {
 
-    private static final String ALGO = "SHA-265";
+    private static final String ALGO = "SHA-256";
 
     public String calculateHash(@NonNull String text) {
         final MessageDigest digest;
